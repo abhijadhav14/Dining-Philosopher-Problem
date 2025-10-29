@@ -1,11 +1,11 @@
-# Dining Philosopher Problem — Simulation in Python
+# Dining Philosopher Problem — Simulation in Python and C++
 
 ## Overview
 
 This project provides a Python-based simulation of the Dining Philosopher Problem, one of the classic synchronization problems in Operating Systems.
 It demonstrates how threads and synchronization mechanisms (locks/semaphores) can be used to prevent deadlocks and ensure proper resource sharing among concurrent processes.
 
-The solution is implemented in a Jupyter Notebook (Dining Philosopher.ipynb) and visualizes how philosophers alternate between thinking and eating without causing starvation.
+The solution is implemented in a Jupyter Notebook (Dining Philosopher.ipynb) as well as in C++ and visualizes how philosophers alternate between thinking and eating without causing starvation.
 
 ## Problem Statement
 

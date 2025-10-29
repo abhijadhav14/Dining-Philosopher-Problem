@@ -7,7 +7,7 @@ It demonstrates how threads and synchronization mechanisms (locks/semaphores) ca
 
 The solution is implemented in a Jupyter Notebook (Dining Philosopher.ipynb) and visualizes how philosophers alternate between thinking and eating without causing starvation.
 
-##Problem Statement
+## Problem Statement
 
 The Dining Philosopher Problem was proposed by Edsger Dijkstra to illustrate synchronization issues in concurrent processes.
 
@@ -21,7 +21,7 @@ To eat, a philosopher must pick up both the left and right forks.
 
 The challenge: avoid deadlocks and starvation while allowing every philosopher to eat eventually.
 
-##Implementation Details
+## Implementation Details
 
 Language: Python
 
@@ -43,7 +43,7 @@ No starvation
 
 Fair scheduling between threads
 
-##Algorithm
+## Algorithm
 
 Initialize all forks as locked resources.
 
@@ -61,7 +61,7 @@ Releases both forks and returns to thinking.
 
 Repeat the cycle multiple times.
 
-##Synchronization Strategy
+## Synchronization Strategy
 
 To prevent deadlock:
 

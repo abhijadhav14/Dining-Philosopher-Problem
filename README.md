@@ -7,6 +7,8 @@ It demonstrates how threads and synchronization mechanisms (locks/semaphores) ca
 
 The solution is implemented in a Jupyter Notebook (Dining Philosopher.ipynb) as well as in C++ and visualizes how philosophers alternate between thinking and eating without causing starvation.
 
+This was part my course project of subject Operating System and Virtual Machines CSE5060.
+
 ## Problem Statement
 
 The Dining Philosopher Problem was proposed by Edsger Dijkstra to illustrate synchronization issues in concurrent processes.
